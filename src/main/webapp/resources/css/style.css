@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  background: #fcfcfc;
+}
+
+.nav-bar {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.nav-bar a {
+  color: #777;
+  padding: 10px 0;
+}
+
+.nav-bar a:hover {
+  color: #C00;
+  text-decoration: none;
+}
+
+a.brand {
+  display: inline-block;
+  padding: 10px 0;
+  margin: 0 20px;
+}
+
+.nav-bar-links {
+  display: inline-block;
+  margin: 0;
+}
+
+.nav-bar-links li {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: .7em;
+}
+
+.nav-bar-links a {
+display: inline-block;
+  padding: 10px 0;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown button {
+  background: none;
+  border: none;
+  color: #777;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1em;
+  min-width: 86px;
+  outline: none;
+  padding: 10px 0;
+}
+
+.dropdown button:after {
+  border-top: .35em solid #777;
+  border-left: .35em solid transparent;
+  border-right: .35em solid transparent;
+  content: '';
+  display: inline-block;
+  height: 0;
+  vertical-align: middle;
+  width: 0;
+}
+
+.langs {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.langs a {
+  display: block;
+  padding: .5em;
+}
+
+.dropdown:hover .langs {
+  display: block;
+}

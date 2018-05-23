@@ -1,4 +1,15 @@
 spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/notepad?useSSL=false
+    username: root
+    password: root
+
+  messages:
+    basename: messages
+    encoding: UTF-8
+    use-code-as-default-message: true
+
   mvc:
     view:
       prefix: /WEB-INF/views/

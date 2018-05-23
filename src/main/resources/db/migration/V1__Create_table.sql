@@ -1,0 +1,5 @@
+CREATE TABLE notes (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    name TEXT,
+    FULLTEXT(name)
+) ENGINE=InnoDB;
